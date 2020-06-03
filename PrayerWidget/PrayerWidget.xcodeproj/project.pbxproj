@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF05287A24539D85008BF7A3 /* PrayerTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05287924539D85008BF7A3 /* PrayerTimeManager.swift */; };
+		EF05287C24539D93008BF7A3 /* PrayerTimeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05287B24539D93008BF7A3 /* PrayerTimeResponse.swift */; };
+		EF0528812454D4D3008BF7A3 /* PrayerTimeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0528802454D4D3008BF7A3 /* PrayerTimeUtilities.swift */; };
+		EF0670ED245B78FB005CD0B3 /* TestSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0670EC245B78FB005CD0B3 /* TestSwiftUIView2.swift */; };
+		EF31FB242458B5C300CA198F /* TestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31FB232458B5C300CA198F /* TestSwiftUIView.swift */; };
+		EFA907172452229A00EF7AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA907162452229A00EF7AF6 /* AppDelegate.swift */; };
+		EFA907192452229A00EF7AF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA907182452229A00EF7AF6 /* SceneDelegate.swift */; };
+		EFA9071B2452229A00EF7AF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9071A2452229A00EF7AF6 /* ContentView.swift */; };
+		EFA9071D2452229C00EF7AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA9071C2452229C00EF7AF6 /* Assets.xcassets */; };
+		EFA907202452229C00EF7AF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA9071F2452229C00EF7AF6 /* Preview Assets.xcassets */; };
+		EFA907232452229C00EF7AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA907212452229C00EF7AF6 /* LaunchScreen.storyboard */; };
+		EFA9072C245225EE00EF7AF6 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9072B245225EE00EF7AF6 /* DateManager.swift */; };
+		EFA9072E245230E800EF7AF6 /* DateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9072D245230E800EF7AF6 /* DateResponse.swift */; };
+		EFD107DB245649B10074C31B /* PrayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD107DA245649B10074C31B /* PrayerListView.swift */; };
+		EFD107DD2457911C0074C31B /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD107DC2457911C0074C31B /* AppEnvironment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF05287924539D85008BF7A3 /* PrayerTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeManager.swift; sourceTree = "<group>"; };
+		EF05287B24539D93008BF7A3 /* PrayerTimeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeResponse.swift; sourceTree = "<group>"; };
+		EF0528802454D4D3008BF7A3 /* PrayerTimeUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUtilities.swift; sourceTree = "<group>"; };
+		EF0670EC245B78FB005CD0B3 /* TestSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIView2.swift; sourceTree = "<group>"; };
+		EF31FB232458B5C300CA198F /* TestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIView.swift; sourceTree = "<group>"; };
+		EFA907132452229A00EF7AF6 /* PrayerWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA907162452229A00EF7AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFA907182452229A00EF7AF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFA9071A2452229A00EF7AF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFA9071C2452229C00EF7AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA9071F2452229C00EF7AF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA907222452229C00EF7AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFA907242452229C00EF7AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA9072B245225EE00EF7AF6 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		EFA9072D245230E800EF7AF6 /* DateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateResponse.swift; sourceTree = "<group>"; };
+		EFD107DA245649B10074C31B /* PrayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerListView.swift; sourceTree = "<group>"; };
+		EFD107DC2457911C0074C31B /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA907102452229A00EF7AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA9070A2452229A00EF7AF6 = {
+			isa = PBXGroup;
+			children = (
+				EFA907152452229A00EF7AF6 /* PrayerWidget */,
+				EFA907142452229A00EF7AF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA907142452229A00EF7AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA907132452229A00EF7AF6 /* PrayerWidget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA907152452229A00EF7AF6 /* PrayerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EFD107D9245649910074C31B /* Views */,
+				EFA9072A245225D500EF7AF6 /* Model */,
+				EFA907162452229A00EF7AF6 /* AppDelegate.swift */,
+				EFA907182452229A00EF7AF6 /* SceneDelegate.swift */,
+				EFA9071C2452229C00EF7AF6 /* Assets.xcassets */,
+				EFA907212452229C00EF7AF6 /* LaunchScreen.storyboard */,
+				EFA907242452229C00EF7AF6 /* Info.plist */,
+				EFA9071E2452229C00EF7AF6 /* Preview Content */,
+			);
+			path = PrayerWidget;
+			sourceTree = "<group>";
+		};
+		EFA9071E2452229C00EF7AF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9071F2452229C00EF7AF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFA9072A245225D500EF7AF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9072B245225EE00EF7AF6 /* DateManager.swift */,
+				EFA9072D245230E800EF7AF6 /* DateResponse.swift */,
+				EF05287924539D85008BF7A3 /* PrayerTimeManager.swift */,
+				EF05287B24539D93008BF7A3 /* PrayerTimeResponse.swift */,
+				EF0528802454D4D3008BF7A3 /* PrayerTimeUtilities.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFD107D9245649910074C31B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFD107DA245649B10074C31B /* PrayerListView.swift */,
+				EFD107DC2457911C0074C31B /* AppEnvironment.swift */,
+				EFA9071A2452229A00EF7AF6 /* ContentView.swift */,
+				EF31FB232458B5C300CA198F /* TestSwiftUIView.swift */,
+				EF0670EC245B78FB005CD0B3 /* TestSwiftUIView2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA907122452229A00EF7AF6 /* PrayerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA907272452229C00EF7AF6 /* Build configuration list for PBXNativeTarget "PrayerWidget" */;
+			buildPhases = (
+				EFA9070F2452229A00EF7AF6 /* Sources */,
+				EFA907102452229A00EF7AF6 /* Frameworks */,
+				EFA907112452229A00EF7AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayerWidget;
+			productName = PrayerWidget;
+			productReference = EFA907132452229A00EF7AF6 /* PrayerWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA9070B2452229A00EF7AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ashraf Magdum";
+				TargetAttributes = {
+					EFA907122452229A00EF7AF6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EFA9070E2452229A00EF7AF6 /* Build configuration list for PBXProject "PrayerWidget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA9070A2452229A00EF7AF6;
+			productRefGroup = EFA907142452229A00EF7AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA907122452229A00EF7AF6 /* PrayerWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA907112452229A00EF7AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA907232452229C00EF7AF6 /* LaunchScreen.storyboard in Resources */,
+				EFA907202452229C00EF7AF6 /* Preview Assets.xcassets in Resources */,
+				EFA9071D2452229C00EF7AF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA9070F2452229A00EF7AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA907172452229A00EF7AF6 /* AppDelegate.swift in Sources */,
+				EF05287A24539D85008BF7A3 /* PrayerTimeManager.swift in Sources */,
+				EF0528812454D4D3008BF7A3 /* PrayerTimeUtilities.swift in Sources */,
+				EF31FB242458B5C300CA198F /* TestSwiftUIView.swift in Sources */,
+				EFD107DB245649B10074C31B /* PrayerListView.swift in Sources */,
+				EF0670ED245B78FB005CD0B3 /* TestSwiftUIView2.swift in Sources */,
+				EF05287C24539D93008BF7A3 /* PrayerTimeResponse.swift in Sources */,
+				EFD107DD2457911C0074C31B /* AppEnvironment.swift in Sources */,
+				EFA9072E245230E800EF7AF6 /* DateResponse.swift in Sources */,
+				EFA9072C245225EE00EF7AF6 /* DateManager.swift in Sources */,
+				EFA907192452229A00EF7AF6 /* SceneDelegate.swift in Sources */,
+				EFA9071B2452229A00EF7AF6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFA907212452229C00EF7AF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA907222452229C00EF7AF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA907252452229C00EF7AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA907262452229C00EF7AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA907282452229C00EF7AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PrayerWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = YH2R5BAP4Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PrayerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrafproductions.PrayerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA907292452229C00EF7AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PrayerWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = YH2R5BAP4Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PrayerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrafproductions.PrayerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA9070E2452229A00EF7AF6 /* Build configuration list for PBXProject "PrayerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA907252452229C00EF7AF6 /* Debug */,
+				EFA907262452229C00EF7AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA907272452229C00EF7AF6 /* Build configuration list for PBXNativeTarget "PrayerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA907282452229C00EF7AF6 /* Debug */,
+				EFA907292452229C00EF7AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA9070B2452229A00EF7AF6 /* Project object */;
+}
